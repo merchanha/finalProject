@@ -13,46 +13,55 @@ function Navegacion() {
 
         <div>
 
-      <Navbar collapseOnSelect fixed = 'top' expand='sm' bg='dark' variant = 'dark'>
-            <Container>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav>
+            <Navbar collapseOnSelect fixed='top' expand='sm' bg='dark' variant='dark'>
+                <Container>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav>
 
-                        <Nav.Link href="/">Inicio</Nav.Link>
-                        <Nav.Link href="/Sobre">Sobre</Nav.Link>
-                        <Nav.Link href="/Servicios">Servicios</Nav.Link>
-                        <Nav.Link href="/Contacto">Contactos</Nav.Link>
-                        <Nav.Link href="/Login">Login</Nav.Link>
-
-
-                    </Nav>
+                            <Nav.Link href="/">Inicio</Nav.Link>
+                            <Nav.Link href="/Sobre">Sobre</Nav.Link>
+                            <Nav.Link href="/Servicios">Servicios</Nav.Link>
+                            <Nav.Link href="/Contacto">Contactos</Nav.Link>
+                            <Nav.Link href="/Login">Login</Nav.Link>
 
 
-                </Navbar.Collapse>
+                        </Nav>
 
+                        <Navbar.Collapse className="justify-content-end">
+                            <Navbar.Text>
+                                REDES SOCIALES
+                            </Navbar.Text>
+                        </Navbar.Collapse>
 
-
-            </Container>
-
-
-
+                    </Navbar.Collapse>
 
 
 
-        </Navbar>
+                </Container>
 
 
-        
-        
+
+
+
+
+            </Navbar>
+
+
+
+
+
+
+
+
 
         </div>
-       
 
 
 
 
-        
+
+
     )
 }
 
