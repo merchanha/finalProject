@@ -1,6 +1,6 @@
 import React from "react";
 import bootstrap from 'bootstrap'
-import coverVideo from "../media/cover.mp4"
+import coverVideo from "../media/portada2.mp4"
 import "./cover.css"
 import Navegacion from "./Navegacion";
 
