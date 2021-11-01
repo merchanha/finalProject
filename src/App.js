@@ -8,6 +8,7 @@ import Servicios from './components/Servicios';
 import Contacto from './components/Contacto';
 
 import Login from './components/Login';
+import CoverPortada from './components/CoverPortada';
 
 function App() {
   return (
@@ -16,6 +17,13 @@ function App() {
 
       <Router>
       <Switch>
+
+      <Route exact path='/'>
+          <Cover/>
+          <CoverPortada/>
+        
+         
+        </Route>
         <Route exact path='/Sobre'>
           <SobreNosotros />
         </Route>
@@ -33,9 +41,7 @@ function App() {
           <Login />
         </Route>
 
-        <Route exact path='/'>
-          <Cover/>
-        </Route>
+        
 
 
       </Switch>
