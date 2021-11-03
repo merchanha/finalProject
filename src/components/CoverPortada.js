@@ -2,6 +2,7 @@ import React from 'react'
 import instalacion from "../media/instalacion.jpg"
 import planos from "../media/planos.jpg"
 import producto from "../media/producto.jpg"
+import "./coverPortada.css"
 
 
 function CoverPortada() {
@@ -23,7 +24,7 @@ function CoverPortada() {
                 </div>
                 <div class="col">
                     <div class="card h-100">
-                        <img src={producto} class="card-img-top" alt="..." />
+                        <img src={producto}  class="card-img-top " alt="..." />
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
