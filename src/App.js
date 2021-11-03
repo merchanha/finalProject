@@ -7,7 +7,7 @@ import SobreNosotros from './components/SobreNosotros';
 import Servicios from './components/Servicios';
 import Contacto from './components/Contacto';
 
-import Login from './components/Login';
+import Login from './components/login/Login';
 import CoverPortada from './components/CoverPortada';
 
 function App() {
