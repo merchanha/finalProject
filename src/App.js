@@ -10,6 +10,8 @@ import Contacto from './components/Contacto';
 import Login from './components/login/Login';
 import CoverPortada from './components/CoverPortada';
 import Navegacion from './components/Navegacion';
+import Footer from './components/footer/Footer'
+import Form from './components/formHome/Form';
 
 function App() {
   return (
@@ -23,29 +25,34 @@ function App() {
       <Navegacion/>
           <Cover/>
           <CoverPortada/>
-        
+          <Form/>
+          <Footer/>
          
         </Route>
         <Route exact path='/Sobre'>
         <Navegacion/>
         <br/>
           <SobreNosotros />
+          <Footer/>
         </Route>
 
         <Route exact path='/Servicios'>
         <Navegacion/>
           <Servicios />
+          <Footer/>
         </Route>
 
 
         <Route  exact path='/Contacto'>
         
           <Contacto />
+          <Footer/>
         </Route>
 
         <Route exact path='/Login'>
         <Navegacion/>
           <Login />
+          <Footer/>
         </Route>
 
         

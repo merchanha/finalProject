@@ -1,0 +1,50 @@
+
+.footer-container{
+    background-color: rgb(17, 17, 17);
+    color: blanchedalmond;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
+    padding: 2em;
+}
+
+.footer-container h1{
+    color: rgb(84, 84, 84);
+}
+
+.h1footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container .footerp1 {
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+.spanFooter {
+    margin-right: 2em;
+    color: rgb(84, 84, 84);
+}
+
+.aFooter {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-container-2{
+    background-color: black;
+
+}
+
+.footer-container-2 p{
+    align-self: center;
+    margin-top: 1em;
+    
+}
+
