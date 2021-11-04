@@ -9,6 +9,7 @@ import Contacto from './components/Contacto';
 
 import Login from './components/login/Login';
 import CoverPortada from './components/CoverPortada';
+import Navegacion from './components/Navegacion';
 
 function App() {
   return (
@@ -19,25 +20,31 @@ function App() {
       <Switch>
 
       <Route exact path='/'>
+      <Navegacion/>
           <Cover/>
           <CoverPortada/>
         
          
         </Route>
         <Route exact path='/Sobre'>
+        <Navegacion/>
+        <br/>
           <SobreNosotros />
         </Route>
 
         <Route exact path='/Servicios'>
+        <Navegacion/>
           <Servicios />
         </Route>
 
 
         <Route  exact path='/Contacto'>
+        
           <Contacto />
         </Route>
 
         <Route exact path='/Login'>
+        <Navegacion/>
           <Login />
         </Route>
 

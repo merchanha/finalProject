@@ -13,7 +13,7 @@ import Navegacion from "./Navegacion";
 function Cover() {
     return (
         <div className="cover-container">
-            <Navegacion/>
+           
             <video className="video" src={coverVideo} autoPlay loop muted></video>
 
             <h1>Furniture Style</h1>

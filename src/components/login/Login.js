@@ -1,7 +1,11 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import Registro from './Registro'
+import { Route, NavLink } from 'react-router-dom'
+import {Registro} from './Registro';
+
 import "./registro.css"
+
+
+
 
 
 function Login() {
@@ -27,7 +31,7 @@ function Login() {
          </div>
          <input type="submit" value="Login" class="button"/>
          <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-         <p>¿No tienes una cuenta? <NavLink to="">Registrarme</NavLink></p>
+         <p>¿No tienes una cuenta?  <a class="link" href="">Registrate</a></p>
      </div>
     </form>
     
