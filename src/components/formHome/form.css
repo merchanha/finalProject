@@ -1,0 +1,13 @@
+
+.form-container{
+    background-color: #212529;
+    color: blanchedalmond;
+    /* border-top-right-radius: 5%;
+    border-top-left-radius: 5%; */
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+.titulo-contacto{
+    color: rgb(107, 107, 107);
+}

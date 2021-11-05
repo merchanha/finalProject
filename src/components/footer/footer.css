@@ -1,14 +1,14 @@
 
 .footer-container{
-    background-color: rgb(17, 17, 17);
+    background-color: #212529;
     color: blanchedalmond;
-    border-top-right-radius: 10%;
-    border-top-left-radius: 10%;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
     padding: 2em;
 }
 
 .footer-container h1{
-    color: rgb(84, 84, 84);
+    color: rgb(107, 107, 107);
 }
 
 .h1footer {
@@ -29,7 +29,7 @@ h2{
 
 .spanFooter {
     margin-right: 2em;
-    color: rgb(84, 84, 84);
+    color: rgb(107, 107, 107);
 }
 
 .aFooter {
@@ -38,7 +38,8 @@ h2{
 }
 
 .footer-container-2{
-    background-color: black;
+    background-color: rgb(29, 29, 29);
+    color: rgba(240, 248, 255, 0.522);
 
 }
 

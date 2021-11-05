@@ -27,9 +27,11 @@ const Form = () => {
 
     return(
         <Fragment>
-            <h1>Contactanos</h1>
-            <form className="row" onSubmit={enviarDatos}>
-                <div className="col-md-4">
+            <div className="container-fluid py-3 form-container mt-1 mb-2">
+            <h1 className="titulo-contacto py-3">Contactanos</h1>
+            <p className="pb-3">Envianos tu consulta, en breve nuestros equipo de atencion te brindara atencon personalizada.</p>
+            <form className="row justify-content-center" onSubmit={enviarDatos}>
+                <div className="col-md-4 mb-2 form-input">
                     <input 
                     placeholder="Nombre"
                     className="form-control"
@@ -37,7 +39,8 @@ const Form = () => {
                     onChange={handleInputChange}
                     ></input>
                 </div>
-                <div className="col-md-4">
+                <div class="w-100"></div>
+                <div className="col-md-4 mb-2 form-input">
                     <input
                     placeholder="Apellido"
                     className="form-control"
@@ -45,7 +48,8 @@ const Form = () => {
                     onChange={handleInputChange}
                     ></input>
                 </div>
-                <div className="col-md-4">
+                <div class="w-100"></div>
+                <div className="col-md-4 mb-2 form-input">
                     <input
                     placeholder="Nro. Telefónico"
                     className="form-control"
@@ -53,7 +57,8 @@ const Form = () => {
                     onChange={handleInputChange}
                     ></input>
                 </div>
-                <div className="col-md-4">
+                <div class="w-100"></div>
+                <div className="col-md-4 mb-2 form-input">
                     <textarea
                     placeholder="Comentanos"
                     className="form-control"
@@ -61,10 +66,12 @@ const Form = () => {
                     onChange={handleInputChange}
                     ></textarea>
                 </div>
-                <div className="col-md-3">
+                <div class="w-100"></div>
+                <div className="col-md-4 mb-2 justify-content-center">
                     <button className="btn btn-primary" type="submit">Enviar</button>
                 </div>
             </form>
+            </div>
         </Fragment>
 
     )
