@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Contacto() {
+function Producto() {
     return (
         <div>
-            <h1>contactanos</h1>
+            <h1>Shopping card</h1>
             
         </div>
     )
 }
 
-export default Contacto
+export default Producto;

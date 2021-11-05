@@ -12,19 +12,19 @@ function Registro() {
      <div class="contenedor">
      
      <div class="input-contenedor">
-         <i class="fas fa-user icon"></i>
+      
          <input type="text" placeholder="Nombre Completo"/>
          
          </div>
          
          <div class="input-contenedor">
-         <i class="fas fa-envelope icon"></i>
+       
          <input type="text" placeholder="Correo Electronico"/>
          
          </div>
          
          <div class="input-contenedor">
-        <i class="fas fa-key icon"></i>
+      
          <input type="password" placeholder="Contraseña"/>
          
          </div>

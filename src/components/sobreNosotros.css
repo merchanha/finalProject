@@ -11,10 +11,12 @@
 
 #local {
     margin-top:50px;
-    background-color: #f3f3f3;
+    background-color: #f0e7e7;
+    
     display:flex;
     justify-content: center; 
-    padding-bottom: 300px; 
+    padding-bottom: 10px; 
+    padding-top: 20px;
 }
 
 .mapa {

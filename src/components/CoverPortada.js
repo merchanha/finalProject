@@ -9,39 +9,43 @@ function CoverPortada() {
     return (
         <div>
 
-            <div class="row row-cols-1 row-cols-md-3 g-0 p-3">
+
+
+            <h2>Nuestros Servicios</h2>
+
+            <div class="row row-cols-1 row-cols-md-3 g-3 p-3">
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={planos} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card1 h-100">
+                        <img src={planos} class="card1-img-top" alt="..." />
+                        <div class="card1-body">
+                            <h5 class="card1-title">Card title</h5>
+                            <p class="card1-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
-                        <div class="card-footer">
+                        <div class="card1-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={producto}  class="card-img-top " alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <div class="card1 h-100">
+                        <img src={producto}  class="card1-img-top " alt="..." />
+                        <div class="card1-body">
+                            <h5 class="card1-title">Card title</h5>
+                            <p class="card1-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
-                        <div class="card-footer">
+                        <div class="card1-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100">
-                        <img src={instalacion} class="card-img-top" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <div class="card1 h-100">
+                        <img src={instalacion} class="card1-img-top" alt="..." />
+                        <div class="card1-body">
+                            <h5 class="card1-title">Card title</h5>
+                            <p class="card1-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                         </div>
-                        <div class="card-footer">
+                        <div class="card1-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>

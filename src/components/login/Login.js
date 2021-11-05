@@ -21,14 +21,14 @@ function Login() {
      
          
          <div class="input-contenedor">
-         <i class="fas fa-envelope icon"></i>
-         <input type="text" placeholder="Correo Electronico"/>
+        
+         <input id="input" type="text" placeholder="Correo Electronico"/>
          
          </div>
          
          <div class="input-contenedor">
-        <i class="fas fa-key icon"></i>
-         <input type="password" placeholder="Contraseña"/>
+   
+         <input id="input" type="password" placeholder="Contraseña"/>
          
          </div>
          <input type="submit" value="Login" class="button"/>

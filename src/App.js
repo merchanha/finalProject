@@ -5,7 +5,7 @@ import Cover from './components/Cover';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import SobreNosotros from './components/SobreNosotros';
 import Servicios from './components/Servicios';
-import Contacto from './components/Contacto';
+import Producto from './components/Producto';
 
 import Login from './components/login/Login';
 import CoverPortada from './components/CoverPortada';
@@ -28,7 +28,9 @@ function App() {
       <Route exact path='/'>
       <Navegacion/>
           <Cover/>
+          <br/>
           <CoverPortada/>
+          <br/>
           <Form/>
           <Footer/>
          
@@ -42,16 +44,20 @@ function App() {
 
         <Route exact path='/Servicios'>
         <Navegacion/>
-       
+        <br/>
+        <br/>
+        <br/>
         
           <Servicios />
           <Footer/>
         </Route>
 
 
-        <Route  exact path='/Contacto'>
+        <Route  exact path='/Producto'>
+        <Navegacion/>
+        <br/>
         
-          <Contacto />
+          <Producto/>
           <Footer/>
         </Route>
 
