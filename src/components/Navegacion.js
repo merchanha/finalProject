@@ -24,6 +24,7 @@ function Navegacion() {
                             <Nav.Link href="/Servicios">Servicios</Nav.Link>
                             <Nav.Link href="/Contacto">Contactos</Nav.Link>
                             <Nav.Link href="/Login">Login</Nav.Link>
+                            <Nav.Link href="/Registro">Registro</Nav.Link>
 
 
                         </Nav>

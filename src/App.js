@@ -10,6 +10,7 @@ import Contacto from './components/Contacto';
 import Login from './components/login/Login';
 import CoverPortada from './components/CoverPortada';
 import Navegacion from './components/Navegacion';
+import Registro from './components/login/Registro';
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
 
         <Route exact path='/Servicios'>
         <Navegacion/>
+       
+        
           <Servicios />
         </Route>
 
@@ -46,6 +49,11 @@ function App() {
         <Route exact path='/Login'>
         <Navegacion/>
           <Login />
+        </Route>
+
+        <Route exact path='/Registro'>
+        <Navegacion/>
+          <Registro/>
         </Route>
 
         
