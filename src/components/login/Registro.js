@@ -1,8 +1,10 @@
 import React from 'react'
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import "./registro.css"
 
 function Registro() {
     return (
-        <div>
+        <div className ="main">
 
 <form class="formulario">
     
@@ -28,7 +30,7 @@ function Registro() {
          </div>
          <input type="submit" value="Registrate" class="button"/>
          <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-         <p>¿Ya tienes una cuenta?<a class="link" href="">Iniciar Sesion</a></p>
+         <p>¿Ya tienes una cuenta?<Link className="btnd" to = "/Login">Iniciar Sesion</Link></p>
      </div>
     </form>
             

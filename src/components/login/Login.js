@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, NavLink } from 'react-router-dom'
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import {Registro} from './Registro';
 
 import "./registro.css"
@@ -8,9 +8,11 @@ import "./registro.css"
 
 
 
+
+
 function Login() {
     return (
-        <div>
+        <div className="main">
              <form class="formulario">
     
     <h1>Login</h1>
@@ -31,12 +33,14 @@ function Login() {
          </div>
          <input type="submit" value="Login" class="button"/>
          <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-         <p>¿No tienes una cuenta?  <a class="link" href="">Registrate</a></p>
+         <p>¿No tienes una cuenta? <Link className="btnd" to = "/Registro">Registrate</Link></p>
      </div>
     </form>
     
             
         </div>
+
+      
     )
 }
 
