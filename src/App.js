@@ -10,12 +10,12 @@ import Contacto from './components/Contacto';
 import Login from './components/login/Login';
 import CoverPortada from './components/CoverPortada';
 import Navegacion from './components/Navegacion';
-<<<<<<< HEAD
+
 import Footer from './components/footer/Footer'
 import Form from './components/formHome/Form';
-=======
+
 import Registro from './components/login/Registro';
->>>>>>> 3a3da8eec3f7ace00b322f81ebc3932e9cdf264c
+
 
 function App() {
   return (
@@ -64,6 +64,7 @@ function App() {
         <Route exact path='/Registro'>
         <Navegacion/>
           <Registro/>
+          <Footer/>
         </Route>
 
         
