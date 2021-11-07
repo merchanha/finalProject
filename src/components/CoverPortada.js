@@ -7,7 +7,7 @@ import "./coverPortada.css"
 
 function CoverPortada() {
     return (
-        <div>
+        <div className="container-fluid">
 
             <div class="row row-cols-1 row-cols-md-3 g-0 p-3">
                 <div class="col">

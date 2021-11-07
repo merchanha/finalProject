@@ -2,7 +2,7 @@
 
 .navbar {
     display: flex;
-    position: relative;
+    position:relative;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(17, 17, 17);
