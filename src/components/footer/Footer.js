@@ -6,7 +6,7 @@ function Footer() {
         <><div className="container-fluid footer-container">
             <div className="row justify-content-around footer-box">
                 <div className="col-sm-12 col-md-5 pb-4">
-                    <h1 className="h1footer my-0">Furniture Style</h1>
+                    <h1 className="h1footer my-0">Piccolo Wood</h1>
                     <h2>A life Style</h2>
                     <p className="footerp1">Somos un equipo de trabajo especializado en diseño y decoración de interiores, que abarca desde el desarrollo de proyectos, reformas y ejecución de obra, hasta el equipamiento y diseño de objetos.
                         Nuestro compromiso es nuestro diferencial.</p>

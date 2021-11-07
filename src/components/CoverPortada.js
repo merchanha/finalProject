@@ -1,5 +1,5 @@
 import React from 'react'
-import instalacion from "../media/instalacion.jpg"
+import instalacionPortada from "../media/InstalacionPortada.jpg"
 import planos from "../media/planos.jpg"
 import producto from "../media/producto.jpg"
 import "./coverPortada.css"
@@ -18,7 +18,7 @@ function CoverPortada() {
                     <div class="card1 h-100">
                         <img src={planos} class="card1-img-top" alt="..." />
                         <div class="card1-body">
-                            <h5 class="card1-title">Card title</h5>
+                            <h5 class="card1-title">Diseño</h5>
                             <p class="card1-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                         <div class="card1-footer">
@@ -30,7 +30,7 @@ function CoverPortada() {
                     <div class="card1 h-100">
                         <img src={producto}  class="card1-img-top " alt="..." />
                         <div class="card1-body">
-                            <h5 class="card1-title">Card title</h5>
+                            <h5 class="card1-title">Fabricacion</h5>
                             <p class="card1-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card1-footer">
@@ -40,9 +40,9 @@ function CoverPortada() {
                 </div>
                 <div class="col">
                     <div class="card1 h-100">
-                        <img src={instalacion} class="card1-img-top" alt="..." />
+                        <img src={instalacionPortada} class="card1-img-top" alt="..." />
                         <div class="card1-body">
-                            <h5 class="card1-title">Card title</h5>
+                            <h5 class="card1-title">Instalacion</h5>
                             <p class="card1-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                         </div>
                         <div class="card1-footer">

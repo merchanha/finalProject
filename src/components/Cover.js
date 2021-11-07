@@ -16,8 +16,8 @@ function Cover() {
            
             <video className="video" src={coverVideo} autoPlay loop muted></video>
 
-            <h1>Furniture Style</h1>
-            <p>Diseño | Instalacion | Fabricacion </p>
+            <h1>Piccolo Wood</h1>
+            <p>Diseño | Fabricacion | Instalacion </p>
 
           
             </div>
