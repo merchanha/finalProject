@@ -23,67 +23,66 @@ function App() {
 
 
       <Router>
-      <Switch>
+        <Switch>
 
-      <Route exact path='/'>
-      <Navegacion/>
-          <Cover/>
-          <br/>
-          <CoverPortada/>
-          <br/>
-          <Form/>
-          <Footer/>
-         
-        </Route>
-        <Route exact path='/Sobre'>
-        <Navegacion/>
-        <br/>
-          <SobreNosotros />
-          <Footer/>
-        </Route>
+          <Route exact path='/'>
+            <Navegacion />
+            <Cover />
+            <br />
+            <CoverPortada />
+            <br />
+            <Form />
+            <Footer />
 
-        <Route exact path='/Servicios'>
-        <Navegacion/>
-        <br/>
-        <br/>
-        <br/>
-        
-          <Servicios />
-          <Footer/>
-        </Route>
+          </Route>
+          <Route exact path='/Sobre'>
+            <Navegacion />
+            <br />
+            <SobreNosotros />
+            <Footer />
+          </Route>
 
+          <Route exact path='/Servicios'>
+            <Navegacion />
+            <br />
+            <br />
+            <br />
 
-        <Route  exact path='/Producto'>
-        <Navegacion/>
-        <br/>
-        
-          <Producto/>
-          <Footer/>
-        </Route>
+            <Servicios />
+            <Footer />
+          </Route>
 
-        <Route exact path='/Login'>
-        <Navegacion/>
-          <Login />
-          <Footer/>
-        </Route>
+          <Route exact path='/Producto'>
+            <Navegacion />
+            <br />
 
-        <Route exact path='/Registro'>
-        <Navegacion/>
-          <Registro/>
-          <Footer/>
-        </Route>
+            <Producto />
+            <Footer />
+          </Route>
 
-        
+          <Route exact path='/Login'>
+            <Navegacion />
+            <Login />
+            <Footer />
+          </Route>
+
+          <Route exact path='/Registro'>
+            <Navegacion />
+            <Registro />
+            <Footer />
+          </Route>
 
 
-      </Switch>
+
+
+        </Switch>
 
 
 
       </Router>
-      
 
-    
+
+
 
 
     </div>

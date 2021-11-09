@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import {useState} from 'react'
 import Axios from "axios";
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import "./registro.css"
@@ -8,17 +8,26 @@ import "./registro.css"
 
 function Registro() {
 
-    const[usernameReq, setUsernameReq] = useState("");
-    const[mailReq, setMailReq]= useState("")
+    const[nameReq, setNameReq] = useState("");
+    const[userReq, setuserReq]= useState("")
     const[passwordReq, setPasswordReq] = useState("");
 
     const register =()=>{
-        Axios.post("http://localhost3001/user", {
-            username: usernameReq,
-            email: mailReq,
+
+     
+
+        const header = {
+            "Content-Type": "application/json"
+        }
+
+
+        Axios.post("http://localhost:3001/user", {
+            name: nameReq,
+            user: userReq,
             password: passwordReq,
+
         }).then((response)=>{
-            console.log(response) 
+            console.log(response)   
         });
 
 
@@ -39,7 +48,7 @@ function Registro() {
      <div class="input-contenedor">
       
          <input type="text" placeholder="Nombre Completo" onChange={(e)=>{
-             setUsernameReq(e.target.value);
+             setNameReq(e.target.value);
              
              }}
              />
@@ -49,7 +58,7 @@ function Registro() {
          <div class="input-contenedor">
        
          <input type="text" placeholder="Correo Electronico" onChange={(e)=>{
-             setMailReq(e.target.value);
+             setuserReq(e.target.value);
              
              }}/>
          
