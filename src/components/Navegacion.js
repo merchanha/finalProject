@@ -3,6 +3,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaInstagram } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa'
+import logo from "../media/logo.png"
 
 
 function Navegacion() {
@@ -14,10 +15,11 @@ function Navegacion() {
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
+                    
                         <Nav>
 
-                            <Nav.Link href="/">Inicio</Nav.Link>
-                            <Nav.Link href="/Sobre">Quienes Somos</Nav.Link>
+                            <Nav.Link href="/"><img className="imagenLogo mx-2" src={logo} alt="img" width="40px" height="auto"></img></Nav.Link>
+                            <Nav.Link href="/Sobre">Nosotros</Nav.Link>
                             <Nav.Link href="/Servicios">Servicios</Nav.Link>
                             <Nav.Link href="/Producto">Productos</Nav.Link>
                             <Nav.Link href="/Login">Login</Nav.Link>

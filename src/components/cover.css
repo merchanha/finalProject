@@ -30,3 +30,8 @@
     color: white;
     font-size: 32px;
 }
+
+.imagen {
+    width: 400px;
+    height: auto;
+}
