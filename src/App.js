@@ -26,7 +26,6 @@ function App() {
         <Switch>
 
           <Route exact path='/'>
-            <Navegacion />
             <Cover />
             <br />
             <CoverPortada />
@@ -36,38 +35,31 @@ function App() {
 
           </Route>
           <Route exact path='/Sobre'>
-            <Navegacion />
             <br />
             <SobreNosotros />
             <Footer />
           </Route>
 
           <Route exact path='/Servicios'>
-            <Navegacion />
             <br />
             <br />
             <br />
-
             <Servicios />
             <Footer />
           </Route>
 
           <Route exact path='/Producto'>
-            <Navegacion />
             <br />
-
             <Producto />
             <Footer />
           </Route>
 
           <Route exact path='/Login'>
-            <Navegacion />
             <Login />
             <Footer />
           </Route>
 
           <Route exact path='/Registro'>
-            <Navegacion />
             <Registro />
             <Footer />
           </Route>

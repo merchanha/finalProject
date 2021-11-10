@@ -21,7 +21,7 @@ const Form = () => {
     }
 
     const enviarDatos = (event) => {
-        event.preventDefault("https://submit-form.com/rF7rUJ1I");
+        event.preventDefault();
         // console.log(datos.nombre + ' ' + datos.apellido + datos.telefono + datos.comentario)
     }
 
@@ -31,7 +31,7 @@ const Form = () => {
             <h1 className="titulo-contacto py-3">¿Como podemos ayudarte?</h1>
             <p className="pb-3">Envianos tu consulta, en breve nuestros equipo te brindara atencon personalizada.</p>
             <form className="row justify-content-center" onSubmit={enviarDatos}>
-                <div className="col-md-8 col-xl-6 mb-2 form-input">
+                <div className="col-md-8 col-xl-5 mb-2 form-input">
                     <input 
                     placeholder="Nombre"
                     className="form-control"
@@ -40,7 +40,7 @@ const Form = () => {
                     ></input>
                 </div>
                 <div class="w-100"></div>
-                <div className="col-md-8 col-xl-6 mb-2 form-input">
+                <div className="col-md-8 col-xl-5 mb-2 form-input">
                     <input
                     placeholder="Apellido"
                     className="form-control"
@@ -49,7 +49,7 @@ const Form = () => {
                     ></input>
                 </div>
                 <div class="w-100"></div>
-                <div className="col-md-8 col-xl-6 mb-2 form-input">
+                <div className="col-md-8 col-xl-5 mb-2 form-input">
                     <input
                     placeholder="Nro. Telefónico"
                     className="form-control"
@@ -58,7 +58,7 @@ const Form = () => {
                     ></input>
                 </div>
                 <div class="w-100"></div>
-                <div className="col-md-8 col-xl-6 mb-2 form-input">
+                <div className="col-md-8 col-xl-5 mb-2 form-input">
                     <textarea
                     placeholder="Comentanos"
                     className="form-control"
@@ -67,7 +67,7 @@ const Form = () => {
                     ></textarea>
                 </div>
                 <div class="w-100"></div>
-                <div className="col-md-8 col-xl-6 mb-2 justify-content-center">
+                <div className="col-md-8 col-xl-5 mb-2 justify-content-center">
                     <button className="btn btn-primary" type="submit">Enviar</button>
                 </div>
             </form>

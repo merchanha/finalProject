@@ -1,11 +1,8 @@
 import React from "react";
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-
-
-
-
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa'
 
 
 function Navegacion() {
@@ -30,8 +27,9 @@ function Navegacion() {
                         </Nav>
 
                         <Navbar.Collapse className="justify-content-end">
-                            <Navbar.Text>
-                                REDES SOCIALES
+                            <Navbar.Text className="d-flex">
+                                <Nav.Link href="https://instagram.com/piccolowood.ar?utm_medium=copy_link"><FaInstagram  className="mx-1" size={30}/></Nav.Link>
+                                <Nav.Link href=""><FaFacebook className="mx-1" size={30}/></Nav.Link>    
                             </Navbar.Text>
                         </Navbar.Collapse>
 

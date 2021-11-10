@@ -8,8 +8,10 @@ function Footer() {
                 <div className="col-sm-12 col-md-5 pb-4">
                     <h1 className="h1footer my-0">Piccolo Wood</h1>
                     <h2>A life Style</h2>
-                    <p className="footerp1">Somos un equipo de trabajo especializado en diseño y decoración de interiores, que abarca desde el desarrollo de proyectos, reformas y ejecución de obra, hasta el equipamiento y diseño de objetos.
-                        Nuestro compromiso es nuestro diferencial.</p>
+                    <p className="footerp1">Diseñamos tus espacios.</p>
+                    <p className="footerp1">Fabricamos tus muebles a medida.</p>
+                    <p className="footerp1">Productos novedosos y divertidos.</p>
+                    <p className="footerp1">Bienvenido al mundo de Piccolo Wood.</p>
                 </div>
                 <div className="col-sm-12 col-md-5">
                     <h1 className="h1footer2 mb-3">Contacto</h1>
