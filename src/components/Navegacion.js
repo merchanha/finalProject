@@ -14,12 +14,12 @@ function Navegacion() {
             <Navbar collapseOnSelect fixed='top' expand='sm' bg='dark' variant='dark'>
                 <Container>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
+                    <Navbar.Collapse id="responsive-navbar-nav"> 
                     
                         <Nav>
 
                             <Nav.Link href="/"><img className="imagenLogo mx-2" src={logo} alt="img" width="40px" height="auto"></img></Nav.Link>
-                            <Nav.Link href="/Sobre">Nosotros</Nav.Link>
+                            <Nav.Link href="/Sobre">Nosotros</Nav.Link> 
                             <Nav.Link href="/Servicios">Servicios</Nav.Link>
                             <Nav.Link href="/Producto">Productos</Nav.Link>
                             <Nav.Link href="/Login">Login</Nav.Link>

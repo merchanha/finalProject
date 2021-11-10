@@ -15,12 +15,6 @@ function Registro() {
     const register =()=>{
 
      
-
-        const header = {
-            "Content-Type": "application/json"
-        }
-
-
         Axios.post("http://localhost:3001/user", {
             name: nameReq,
             user: userReq,

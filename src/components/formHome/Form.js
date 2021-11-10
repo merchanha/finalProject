@@ -57,6 +57,25 @@ const Form = () => {
                     onChange={handleInputChange}
                     ></input>
                 </div>
+                <br/>
+
+                <div class="w-100"></div>
+                
+                <div className="col-md-8 col-xl-5 mb-2 form-input">
+                    <input
+                    type="file"
+                    placeholder="Imagen"
+                    className="form-control"
+                    name="imagen"
+                    
+                    ></input>
+                </div>
+
+
+
+
+
+
                 <div class="w-100"></div>
                 <div className="col-md-8 col-xl-5 mb-2 form-input">
                     <textarea
