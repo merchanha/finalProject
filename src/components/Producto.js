@@ -3,6 +3,7 @@ import { TYPES } from '../actions/shoppingActions';
 import { shoppingInitialState, shoppingRedcucer } from '../reducers/shoppingReducer'
 import CartItem from './CartItem';
 import ProductsItem from './ProductsItem';
+import "./producto.css"
 
 function Producto() {
     const [state, dispatch] = useReducer(shoppingRedcucer, shoppingInitialState);
@@ -35,13 +36,13 @@ function Producto() {
         <div style = {{borderBottom:"thin solid gray"}}>
             <h2 style = {{textAlign: 'center', marginTop:'50px'}}>Nuestra lista de Productos</h2>
             <h3>Products</h3>
-            <article className="box grid-responsive" >
+            <article className="box1 grid-responsive" >
                 {products.map((product) => (
                     <ProductsItem key ={product.id} data={product} addToCart={addToCart}/>
                 ))}
             </article>
             <h3>Tu seleccion de productos</h3>
-            <article className="box">
+            <article className="box1">
                 <button onClick = {clearCart}> Clear Cart</button>
                 {cart.map((item,index)=> (
                     <CartItem key= {index} data= {item} delFromCart={delFromCart}/>

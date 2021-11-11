@@ -73,9 +73,6 @@ const Form = () => {
 
 
 
-
-
-
                 <div class="w-100"></div>
                 <div className="col-md-8 col-xl-5 mb-2 form-input">
                     <textarea
