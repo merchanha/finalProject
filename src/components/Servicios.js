@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Grid } from '@material-ui/core'
 import "./servicios.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 
 import figura_1 from "../media/disenoServicios.jpg"
 import figura_2 from "../media/fabricacionServicios.jpg"
@@ -34,7 +35,8 @@ function Servicios() {
                         <div class="card-body">
                             <h4 class="card-title">Fabricacion</h4>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This card has supporting text below as a natural lead-in to additional content.</p>
-                            <a href="#" class="btn btn-outline-primary">Ver Productos</a>
+                            
+                            <Link class="btn btn-outline-primary" to = "/Producto">Ver Productos</Link>
                         </div>
                     </div>
                     <div class="card">
