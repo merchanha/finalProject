@@ -59,12 +59,15 @@ const Form = () => {
                 </div>
                 <br/>
 
+               
                 <div class="w-100"></div>
-                
+                <div class="col-md-8 col-xl-5 mb-2">Si deseas puedes adjuntar tu diseño</div>
+
+                <div class="w-100"></div>
                 <div className="col-md-8 col-xl-5 mb-2 form-input">
                     <input
                     type="file"
-                    placeholder="Imagen"
+                    placeholder="Adjuntanos tu diseño"
                     className="form-control"
                     name="imagen"
                     
