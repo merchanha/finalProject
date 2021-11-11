@@ -38,6 +38,9 @@ function Producto() {
             <h3>Products</h3>
             <article className="box1 grid-responsive" >
                 {products.map((product) => (
+
+                    
+                    
                     <ProductsItem key ={product.id} data={product} addToCart={addToCart}/>
                 ))}
             </article>
