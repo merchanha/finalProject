@@ -17,6 +17,7 @@
     background: #fff;
     margin-top: 150px;
     padding: 3px;
+
 }
 h1{
     text-align: center;
@@ -67,12 +68,16 @@ p{
 @media(min-width:768px)
 {
     .formulario{
-        margin: auto;
+      
         width: 500px;
         margin-top: 150px;
+        margin-bottom: 50px;
         border-radius: 2%;
     }
 }
+
+
+
 
 
 

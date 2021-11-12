@@ -1,5 +1,5 @@
 import React, {Fragment, useState} from 'react'
-import axios from 'axios';
+import Axios from 'axios';
 
 
 import './form.css'
@@ -13,7 +13,7 @@ function Formulario () {
 
     const Form = () => {
 
-        axios.post("http://localhost:3001/Form", {
+        Axios.post("http://localhost:3001/Form", {
             nombre: nombreReq,
             apellido: apellidoReq,
             telefono: telefonoReq,
@@ -66,6 +66,7 @@ function Formulario () {
                     type="file"
                     placeholder="Imagen"
                     className="form-control"
+                    name="avatar"
                     onChange={(e)=>{setImagenReq(e.target.value)}}
                     />
                 </div>
