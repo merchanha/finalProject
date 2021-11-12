@@ -5,20 +5,20 @@ import axios from 'axios';
 import './form.css'
 
 function Formulario () {
-    const[nameReq, setNameReq] = useState("");
-    const[lastNameReq, setLastNameReq] = useState("");
-    const[celReq, setCelReq] = useState("");
-    const[archivoReq, setArchivoReq] = useState("");
-    const[comentReq, setComentReq] = useState("");
+    const[nombreReq, setNombreReq] = useState("");
+    const[apellidoReq, setApellidoReq] = useState("");
+    const[telefonoReq, setTelefonoReq] = useState("");
+    const[imagenReq, setImagenReq] = useState("");
+    const[comentariosReq, setComentariosReq] = useState("");
 
-    const form = () => {
+    const Form = () => {
 
-        axios.post("http://localhost:3001/form", {
-            name: nameReq,
-            lastName: lastNameReq,
-            cel: celReq,
-            archivo: archivoReq,
-            coment: comentReq,
+        axios.post("http://localhost:3001/Form", {
+            nombre: nombreReq,
+            apellido: apellidoReq,
+            telefono: telefonoReq,
+            imagen: imagenReq,
+            comentarios: comentariosReq,
 
 
         }).then((response)=>{
@@ -40,7 +40,7 @@ function Formulario () {
                     <input
                     type="text"
                     placeholder="Nombres"
-                    onChange={(e)=>{setNameReq(e.target.value)}}/>
+                    onChange={(e)=>{setNombreReq(e.target.value)}}/>
                 </div>
                 <div class="w-100"></div>
                 
@@ -48,7 +48,7 @@ function Formulario () {
                 <input
                     type="text"
                     placeholder="Apellidos"
-                    onChange={(e)=>{setLastNameReq(e.target.value)}}/>
+                    onChange={(e)=>{setApellidoReq(e.target.value)}}/>
                 </div>
                 <div class="w-100"></div>
                 
@@ -57,7 +57,7 @@ function Formulario () {
                     type="number"
                     placeholder="+54 9 11 xxxxxxxx"
                     className="form-control"
-                    onChange={(e)=>{setCelReq(e.target.value)}}/>
+                    onChange={(e)=>{setTelefonoReq(e.target.value)}}/>
                 </div>
 
                 <div class="w-100"></div>
@@ -66,8 +66,7 @@ function Formulario () {
                     type="file"
                     placeholder="Imagen"
                     className="form-control"
-                    name="imagen"
-                    onChange={(e)=>{setArchivoReq(e.target.value)}}
+                    onChange={(e)=>{setImagenReq(e.target.value)}}
                     />
                 </div>
 
@@ -77,11 +76,11 @@ function Formulario () {
                     type="text"
                     placeholder="Comentanos"
                     className="form-control"
-                    onChange={(e)=>{setComentReq(e.target.value)}}/>
+                    onChange={(e)=>{setComentariosReq(e.target.value)}}/>
                 </div>
                 <div class="w-100"></div>
                 <div className="col-md-8 col-xl-5 mb-2 justify-content-center">
-                    <button className="btn btn-primary" type="submit" onClick={form}>Enviar</button>
+                    <button className="btn btn-primary" type="submit" onClick={Form}>Enviar</button>
                 </div>
             </form>
             </div>
