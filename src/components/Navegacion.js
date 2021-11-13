@@ -24,6 +24,8 @@ function Navegacion() {
                             <Nav.Link href="/Producto">Productos</Nav.Link>
                             <Nav.Link href="/Login">Login</Nav.Link>
                             <Nav.Link href="/Registro">Registro</Nav.Link>
+                            
+                           
 
 
                         </Nav>

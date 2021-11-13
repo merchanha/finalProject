@@ -1,10 +1,12 @@
-import {useState} from 'react'
+import {useState} from 'react';
+
 import Axios from "axios";
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import { Route, Link, Redirect, BrowserRouter as Router } from 'react-router-dom';
 import {Registro} from './Registro';
 
+
 import "./registro.css"
-import profile from '../profile';
+import Profile from '../Profile';
 
 
 function Login(){
@@ -24,7 +26,10 @@ function Login(){
         }).then((response)=>{
             
             if(response.data.error) alert(response.data.error)
-            if(response.data) <a href={profile}></a>
+            if(response.data)  <Redirect>{Profile}</Redirect>
+            
+            
+            // alert(`Bienvenido ${user}`)
 
         
         });
