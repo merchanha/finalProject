@@ -34,7 +34,7 @@ function Formulario () {
             <h1 className="titulo-contacto py-3">¿Como podemos ayudarte?</h1>
             <p className="pb-3">Envianos tu consulta, en breve nuestros equipo te brindara atencon personalizada.</p>
            
-            <form className="row justify-content-center">
+            <form className="row justify-content-center" enctype="multipart/form-data">
                 
                 <div className="col-md-8 col-xl-5 mb-2 form-input">
                     <input
@@ -60,6 +60,10 @@ function Formulario () {
                     onChange={(e)=>{setTelefonoReq(e.target.value)}}/>
                 </div>
 
+
+                <div class="w-100"></div>
+                <div class="col-md-8 col-xl-5 mb-2">Si deseas puedes adjuntar tu diseño</div>
+
                 <div class="w-100"></div>
                 <div className="col-md-8 col-xl-5 mb-2 form-input">
                     <input
@@ -67,7 +71,7 @@ function Formulario () {
                     placeholder="Imagen"
                     className="form-control"
                     name="avatar"
-                    onChange={(e)=>{setImagenReq(e.target.value)}}
+                    onChange={(e)=>{setImagenReq(e.target.files)}}
                     />
                 </div>
 
