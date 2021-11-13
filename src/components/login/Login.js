@@ -4,6 +4,7 @@ import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
 import {Registro} from './Registro';
 
 import "./registro.css"
+import profile from '../profile';
 
 
 function Login(){
@@ -23,7 +24,7 @@ function Login(){
         }).then((response)=>{
             
             if(response.data.error) alert(response.data.error)
-            if(response.data) alert(`Bienvenido ${user}`)
+            if(response.data) <a href={profile}></a>
 
         
         });
