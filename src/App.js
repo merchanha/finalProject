@@ -15,6 +15,7 @@ import Footer from './components/footer/Footer'
 import Form from './components/formHome/Form';
 
 import Registro from './components/login/Registro';
+import profile from './components/profile';
 
 
 function App() {
@@ -61,6 +62,11 @@ function App() {
 
           <Route exact path='/Registro'>
             <Registro />
+            <Footer />
+          </Route>
+
+          <Route exact path='/Profile'>
+            <profile/>
             <Footer />
           </Route>
 

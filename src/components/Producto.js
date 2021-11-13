@@ -36,7 +36,7 @@ function Producto() {
         <div style = {{borderBottom:"thin solid gray"}}>
             <h2 style = {{textAlign: 'center', marginTop:'50px'}}>Nuestra lista de Productos</h2>
             <h3>Products</h3>
-            <article className="box1 grid-responsive" >
+            <article className="box1 grid-responsive">
                 {products.map((product) => (
 
                     

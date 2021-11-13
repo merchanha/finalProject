@@ -21,7 +21,11 @@ function Login(){
             password: password,
 
         }).then((response)=>{
-            console.log(response)   
+            
+            if(response.data.error) alert(response.data.error)
+            if(response.data) alert(`Bienvenido ${user}`)
+
+        
         });
 
         

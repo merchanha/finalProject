@@ -8,6 +8,8 @@ export const shoppingInitialState = {
         {id:3, name: "Comedor",price:15.000, imagen:producto1},
         {id:4, name: "Mueble para baño",price:5.000, imagen:producto1},
         {id:5, name: "Placard",price:9.000, imagen:producto1},
+        {id:6, name: "Silla",price:45.000, imagen:producto1},
+        
        
     ],
     cart: [],
