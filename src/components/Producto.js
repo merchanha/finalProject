@@ -36,7 +36,12 @@ function Producto() {
         <div style = {{borderBottom:"thin solid gray"}}>
             <h2 style = {{textAlign: 'center', marginTop:'50px'}}>Nuestra lista de Productos</h2>
             <h3>Products</h3>
-            <article className="box1 grid-responsive">
+
+            <div class="container-fluid">
+
+                <div class="row row-cols-1 row-cols-md-3 g-3 p-3"> 
+
+                <article className="">
                 {products.map((product) => (
 
                     
@@ -44,6 +49,14 @@ function Producto() {
                     <ProductsItem key ={product.id} data={product} addToCart={addToCart}/>
                 ))}
             </article>
+
+
+
+                </div>
+
+
+            </div>
+           
             <h3>Tu seleccion de productos</h3>
             <article className="box1">
                 <button onClick = {clearCart}> Clear Cart</button>
