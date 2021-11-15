@@ -10,11 +10,8 @@ import figura_3 from "../media/instalacionServicio.jpg"
 
 function Servicios() {
     return (
-
-        <div>
-
+         <div>
             <div class="container1">
-
                 <h2>Nuestros Servicios</h2>
                 <br/>
                 <div class="card-group vgr-cards">
@@ -26,8 +23,7 @@ function Servicios() {
                             <h4 class="card-title">Diseño de Muebles</h4>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer. This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
                                 bit longer.</p>
-                           
-                        </div>
+                      </div>
                     </div>
                     <div class="card">
                         <div class="card-img-body">
@@ -46,21 +42,12 @@ function Servicios() {
                             <h4 class="card-title">Instalacion</h4>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action. This is a wider card with supporting text below as a natural lead-in
                                 to additional content. This content is a little bit longer.</p>
-                           
-                        </div>
+                       </div>
                     </div>
                 </div>
             </div>
-
-
-
-
         </div>
-
     )
-
-
-
 }
 
 export default Servicios
