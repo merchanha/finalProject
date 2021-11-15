@@ -4,42 +4,21 @@ function ProductsItem({data,addToCart}) {
     let {id,name,price,imagen} = data;
 
     return (
-        <div class="container-fluid">
-            <div class="row">
-
-            <div class="col">
-                    <div class="card1 h-100">
-                        <img src={imagen} class="card1-img-top" alt="..." />
-                        <div class="card1-body">
+    <div className="col-sm-12 col-md-6 col-xl-4 col-xxl-4 mb-5">
+                        <img className="img-product" src={imagen} alt="..." />
+                        <div >
                         <h4>{name}</h4>
                         <h5>${price}.00</h5>
                         <button onClick={()=> addToCart(id)}>Add</button>
                         </div>
-                        <div class="card1-footer">
+                        <div >
                             <small class="text-muted">Last updated 4 hours ago</small>
                         </div>
                     </div>
-                </div>
-
-
-            </div>
-           
-            {/* <img  src={imagen} style={{width:"250px", height:"180px"}}/>
-            <h4>{name}</h4>
-            <h5>${price}.00</h5>
-           <button onClick={()=> addToCart(id)}>Add</button> */}
-
-           
-            
-        </div>
-
-        
-
     );
-}
+};
 
 export default ProductsItem;
 
 
 
-// style = {{border: "thin solid gray", padding: "0rem", margin:"4px"}}

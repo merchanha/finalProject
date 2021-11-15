@@ -33,32 +33,19 @@ function Producto() {
 
 
     return (
-        <div style = {{borderBottom:"thin solid gray"}}>
-            <h2 style = {{textAlign: 'center', marginTop:'50px'}}>Nuestra lista de Productos</h2>
-            <h3>Products</h3>
+        <div className="container-fluid">
+            <h2 className="mt-5">Nuestra lista de Productos</h2>
+            <h3 className="d-flex mt-3 mb-4 titulo-productos">Products</h3>
 
-            <div class="container-fluid">
-
-                <div class="row row-cols-1 row-cols-md-3 g-3 p-3"> 
-
-                <article className="">
+            <article className="box-article row">
                 {products.map((product) => (
-
-                    
-                    
                     <ProductsItem key ={product.id} data={product} addToCart={addToCart}/>
                 ))}
             </article>
 
-
-
-                </div>
-
-
-            </div>
            
             <h3>Tu seleccion de productos</h3>
-            <article className="box1">
+            <article >
                 <button onClick = {clearCart}> Clear Cart</button>
                 {cart.map((item,index)=> (
                     <CartItem key= {index} data= {item} delFromCart={delFromCart}/>
