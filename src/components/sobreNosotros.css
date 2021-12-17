@@ -1,13 +1,7 @@
-
-
-
 #img-equipo{
     max-height:30rem !important;
     width:500PX;
 }
-
-
-
 
 #local {
     margin-top:50px;
@@ -25,11 +19,11 @@
     height:500px;
 }
 
-
 .wrapper-local {
     width:50%;
-    margin-left:100px;
-    padding-top:150px;
+    margin-left:50px;
+    padding-top:50px;
+    padding-bottom: 50px;
    
 
 }
@@ -56,8 +50,6 @@
 #numeros-local p{
     margin:0;
 }
-
-
 
 
 

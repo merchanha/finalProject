@@ -9,7 +9,6 @@ import Producto from './components/Producto';
 
 import Login from './components/login/Login';
 import CoverPortada from './components/CoverPortada';
-import Navegacion from './components/Navegacion';
 
 import Footer from './components/footer/Footer'
 import Form from './components/formHome/Form';

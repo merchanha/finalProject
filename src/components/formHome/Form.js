@@ -33,13 +33,12 @@ function Formulario() {
             <div className="container-fluid py-3 form-container mt-1 mb-2">
                 <h1 className="titulo-contacto py-3">¿Como podemos ayudarte?</h1>
                 <p className="pb-3">Envianos tu consulta, en breve nuestros equipo te brindara atencon personalizada.</p>
-
                 <form className="row justify-content-center" enctype="multipart/form-data">
-
                     <div className="col-md-8 col-xl-5 mb-2 form-input">
                         <input
                             type="text"
                             placeholder="Nombres"
+                            className="form-control"
                             onChange={(e) => { setNombreReq(e.target.value) }} />
                     </div>
                     <div class="w-100"></div>
@@ -48,6 +47,7 @@ function Formulario() {
                         <input
                             type="text"
                             placeholder="Apellidos"
+                            className="form-control"
                             onChange={(e) => { setApellidoReq(e.target.value) }} />
                     </div>
                     <div class="w-100"></div>
@@ -60,11 +60,9 @@ function Formulario() {
                             className="form-control"
                             onChange={(e) => { setTelefonoReq(e.target.value) }} />
                     </div>
-
-
                     <div class="w-100"></div>
-                    <div class="col-md-8 col-xl-5 mb-2">Si deseas puedes adjuntar tu diseño</div>
 
+                    <div class="col-md-8 col-xl-5 mb-2">Si deseas puedes adjuntar tu diseño</div>
                     <div class="w-100"></div>
                     <div className="col-md-8 col-xl-5 mb-2 form-input">
                         <input
@@ -77,8 +75,8 @@ function Formulario() {
                             onChange={(e) => { setImagenReq(e.target.files[0]) }}
                         />
                     </div>
-
                     <div class="w-100"></div>
+
                     <div className="col-md-8 col-xl-5 mb-2 form-input">
                         <textarea
                             type="text"
@@ -87,6 +85,7 @@ function Formulario() {
                             onChange={(e) => { setComentariosReq(e.target.value) }} />
                     </div>
                     <div class="w-100"></div>
+                    
                     <div className="col-md-8 col-xl-5 mb-2 justify-content-center">
                         <button className="btn btn-primary" type="submit" onClick={Form}>Enviar</button>
                     </div>

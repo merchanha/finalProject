@@ -1,7 +1,5 @@
 import React from 'react'
-import bootstrap from 'bootstrap'
 import "./sobreNosotros.css"
-import fabrica from "../media/fabricaAbout.jpg"
 import imagen1 from "../media/instalacion.jpg"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -47,14 +45,6 @@ function sobreNosotros() {
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
         </div>
 
 
