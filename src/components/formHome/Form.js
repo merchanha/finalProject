@@ -8,7 +8,6 @@ function Formulario() {
     const [nombreReq, setNombreReq] = useState("");
     const [apellidoReq, setApellidoReq] = useState("");
     const [telefonoReq, setTelefonoReq] = useState("");
-    const [imagenReq, setImagenReq] = useState("");
     const [comentariosReq, setComentariosReq] = useState("");
 
     const Form = () => {
@@ -17,7 +16,6 @@ function Formulario() {
             nombre: nombreReq,
             apellido: apellidoReq,
             telefono: telefonoReq,
-            imagen: imagenReq,
             comentarios: comentariosReq,
 
 
@@ -59,21 +57,6 @@ function Formulario() {
                             placeholder="+54 9 11 xxxxxxxx"
                             className="form-control"
                             onChange={(e) => { setTelefonoReq(e.target.value) }} />
-                    </div>
-                    <div class="w-100"></div>
-
-                    <div class="col-md-8 col-xl-5 mb-2">Si deseas puedes adjuntar tu diseño</div>
-                    <div class="w-100"></div>
-                    <div className="col-md-8 col-xl-5 mb-2 form-input">
-                        <input
-                            accept="image/*"
-
-                            type="file"
-                            placeholder="Imagen"
-                            className="form-control"
-                            name="avatar"
-                            onChange={(e) => { setImagenReq(e.target.files[0]) }}
-                        />
                     </div>
                     <div class="w-100"></div>
 
